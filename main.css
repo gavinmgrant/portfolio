@@ -3,9 +3,10 @@
   }
 
 body {
-    font-family: "Open Sans", sans-serif; 
-    font-size: 20px;
-    color: #444;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 24px;
+    color: #595652;
+    background-color: #D8D9D0;
     text-align: center;
     line-height: 1.75;
     margin: 0px;
@@ -27,6 +28,15 @@ nav {
     margin-bottom: 50px;
 }
 
+h1 {
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+h2, h3, h4 {
+    font-family: 'Cardo', serif;
+    color: #b1180a;
+}
+
 h2, h3 {
     padding: 20px;
 }
@@ -36,9 +46,10 @@ p {
 }
 
 button {
+    font-family: 'Josefin Sans', sans-serif;
     padding: 20px;
     width: 200px;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     border: none;
     cursor: pointer;
@@ -52,16 +63,15 @@ ul {
 }
 
 .buttonProjects {
-    background-color: #666;
+    background-color: #595652;
 }
 
 .buttonContact {
-    background-color: #000;
+    background-color: #D96704;
 }
 
 .headline {
-    background-color: #444;
-    color: white;
+    background-color: #D9A23D;
     padding: 20px;
 }
 
@@ -90,10 +100,9 @@ ul {
 }
 
 footer {
-    background-color: #666;
+    background-color: #D96704;
     color: white;
     padding: 5px;
-    font-size: 16px;
 }
 
 @media screen and (min-width: 600px) {
