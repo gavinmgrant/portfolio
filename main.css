@@ -212,7 +212,7 @@ footer {
 
     article {
         margin-left: 60px;
-        margin-right: 1000px;
+        margin-right: 940px;
         margin-bottom: 200px;
         text-align: left;
         width: 40%;
@@ -230,8 +230,8 @@ footer {
         position: absolute;
         right: 30px;
         top: auto;
-        width: 900px;
-        height: 600px;
+        width: 840px;
+        height: 560px;
     }
 
     .githubLogo {
