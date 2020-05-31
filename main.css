@@ -188,7 +188,7 @@ footer {
 @media screen and (min-width: 1600px) {
     .headline {
         text-align: left;
-        padding-left: 30px;
+        padding-left: 50px;
         margin-right: 540px;
         margin-bottom: 40px;
     }
