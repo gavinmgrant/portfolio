@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 body {
     font-family: 'Josefin Sans', sans-serif; 
@@ -71,11 +71,25 @@ ul {
 }
 
 .buttonProjects {
-    background-color: #595652;
+    color: #595652;
+    border: 2px solid #595959;
+    background: none;
+}
+
+.buttonProjects:hover {
+    color: #05386B;
+    border: 2px solid #05386B;
 }
 
 .buttonContact {
-    background-color: #D96704;
+    color: #D8D9D0;
+    border: 2px solid #595959;
+    background-color: #595959;
+}
+
+.buttonContact:hover {
+    border: 2px solid #05386B;
+    background-color: #05386B;
 }
 
 .headline {
@@ -125,9 +139,10 @@ footer {
     padding: 40px 0px 10px 0px;
 }
 
-.toTop {
+.toTop:hover {
     color: #05386B;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 600px) {
