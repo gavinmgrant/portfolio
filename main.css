@@ -116,10 +116,14 @@ ul {
     height: 213px;
     margin-left: auto;
     margin-right: auto;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .heroImage:hover {
     cursor: pointer;
+    opacity: .9;
 }
 
 article {
