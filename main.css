@@ -5,7 +5,7 @@
 body {
     font-family: 'Josefin Sans', sans-serif; 
     font-size: 22px;
-    color: #595652;
+    color: #3E3C3A;
     background-color: #D8D9D0;
     text-align: center;
     line-height: 1.75;
@@ -28,16 +28,18 @@ nav {
     margin-bottom: 50px;
 }
 
-a:link, a:visited {
-    color: #595652;
-    text-decoration: none;
-
+.toTop, a:link, a:visited {
+    color: #3E3C3A;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
 }
 
 a:hover {
     color: #05386B;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1, h2 {
@@ -74,8 +76,8 @@ ul {
 }
 
 .buttonProjects {
-    color: #595652;
-    border: 2px solid #595959;
+    color: #3E3C3A;
+    border: 2px solid #3E3C3A;
     background: none;
 }
 
@@ -86,8 +88,8 @@ ul {
 
 .buttonContact {
     color: #D8D9D0;
-    border: 2px solid #595959;
-    background-color: #595959;
+    border: 2px solid #3E3C3A;
+    background-color: #3E3C3A;
 }
 
 .buttonContact:hover {
@@ -111,9 +113,11 @@ ul {
 }
 
 .heroImage {
-    background-color: #999;
-    width: 320px;
-    height: 213px;
+    display: none;
+}
+
+.heroImageMobile {
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     opacity: 1;
@@ -121,7 +125,7 @@ ul {
 	transition: .3s ease-in-out;
 }
 
-.heroImage:hover {
+.heroImageMobile:hover {
     cursor: pointer;
     opacity: .9;
 }
@@ -152,13 +156,12 @@ footer {
 .toTop:hover {
     color: #05386B;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 600px) {
-    .heroImage {
-        width: 600px;
-        height: 400px;
+    .heroImageMobile {
+        width: 450px;
     }
 
     article {
@@ -205,8 +208,23 @@ footer {
     }
 
     .heroImage {
+        display: block;
         width: 800px;
         height: 533px;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    
+    .heroImage:hover {
+        cursor: pointer;
+        opacity: .9;
+    }
+
+    .heroImageMobile {
+        display: none;
     }
 }
 
