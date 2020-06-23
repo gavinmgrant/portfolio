@@ -47,8 +47,17 @@ h1, h2 {
     color: #05386B;
 }
 
+h1 {
+    font-size: 44px;
+}
+
 h2 {
+    font-size: 36px;
     padding: 10px 0px 10px 0px ;
+}
+
+h3 {
+    font-size: 30px;
 }
 
 p {
@@ -104,7 +113,6 @@ ul {
 }
 
 .headshotImage {
-    background-color: #999;
     width: 300px;
     height: 300px;
     margin-left: auto;
