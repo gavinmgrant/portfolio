@@ -129,14 +129,14 @@ ul {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    opacity: 1;
+    opacity: .9;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
 .heroImageMobile:hover {
     cursor: pointer;
-    opacity: .9;
+    opacity: 1;
 }
 
 article {
@@ -222,14 +222,14 @@ footer {
         height: 533px;
         margin-left: auto;
         margin-right: auto;
-        opacity: 1;
+        opacity: .9;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
     
     .heroImage:hover {
         cursor: pointer;
-        opacity: .9;
+        opacity: 1;
     }
 
     .heroImageMobile {
@@ -289,4 +289,4 @@ footer {
     .githubLogo {
         margin-left: 50px;
     }
-} 
+}
