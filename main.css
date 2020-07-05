@@ -153,6 +153,16 @@ article {
     width: 50px;
 }
 
+.logo {
+    width: 50px;
+    opacity: .9;
+}
+
+.logo:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
 #contact {
     margin-bottom: 60px;
 }
