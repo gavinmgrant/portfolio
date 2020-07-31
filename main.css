@@ -28,7 +28,7 @@ nav {
     margin-bottom: 50px;
 }
 
-.toTop, a:link, a:visited {
+a:link, a:visited {
     color: #3E3C3A;
     text-decoration: none;
     border-bottom: 1px solid #3E3C3A;
@@ -160,10 +160,13 @@ footer {
     padding: 40px 0px 10px 0px;
 }
 
+.toTop {
+    color: #D9A23D;
+}
+
 .toTop:hover {
-    color: #05386B;
-    cursor: pointer;
-    border-bottom: none;
+    color: #3E3C3A;
+    background: none;
 }
 
 @media screen and (min-width: 600px) {
