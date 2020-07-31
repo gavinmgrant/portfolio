@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Roboto Condensed', sans-serif; 
     font-size: 22px;
     color: #3E3C3A;
     background-color: #D8D9D0;
@@ -44,21 +44,21 @@ a:hover {
 }
 
 h1, h2 {
-    font-family: 'Cardo', serif;
+    font-family: 'DM Serif Display', serif;
     color: #05386B;
 }
 
 h1 {
-    font-size: 44px;
+    font-size: 48px;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 40px;
     padding: 10px 0px 10px 0px ;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 36px;
 }
 
 p {
@@ -66,7 +66,7 @@ p {
 }
 
 button {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     padding: 20px;
     width: 200px;
     font-size: 24px;
@@ -74,9 +74,6 @@ button {
     border: none;
     cursor: pointer;
     margin: 10px;
-    transition-property: color border;
-    transition-duration: 0.5s;
-    transition-timing-function: linear;
 }
 
 ul {
@@ -85,26 +82,16 @@ ul {
     padding-left: 0;
 }
 
-.buttonProjects {
-    color: #3E3C3A;
-    border: 2px solid #3E3C3A;
-    background: none;
-}
-
-.buttonProjects:hover {
-    color: #05386B;
-    border: 2px solid #05386B;
-}
-
-.buttonContact {
+button {
     color: #D8D9D0;
     border: 2px solid #3E3C3A;
     background-color: #3E3C3A;
 }
 
-.buttonContact:hover {
-    border: 2px solid #05386B;
-    background-color: #05386B;
+button:hover {
+    color: #3E3C3A;
+    border: 2px solid #3E3C3A;
+    background: none;
 }
 
 .headline {
@@ -268,8 +255,8 @@ footer {
         position: absolute;
         right: 30px;
         top: 120px;
-        width: 427px;
-        height: 427px;
+        width: 425px;
+        height: 425px;
     }
 
     article {
