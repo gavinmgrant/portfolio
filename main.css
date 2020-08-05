@@ -143,7 +143,7 @@ article {
 
 .logo {
     width: 50px;
-    opacity: .9;
+    opacity: .85;
 }
 
 .logo:hover {
@@ -223,7 +223,7 @@ footer {
         height: 533px;
         margin-left: auto;
         margin-right: auto;
-        opacity: .9;
+        opacity: .85;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
