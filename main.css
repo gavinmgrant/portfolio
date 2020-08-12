@@ -71,28 +71,23 @@ button {
     padding: 20px;
     width: 200px;
     font-size: 24px;
-    color: white;
-    border: none;
     cursor: pointer;
     margin: 10px;
+    color: #3E3C3A;
+    border: 2px solid #3E3C3A;
+    background: none;
+}
+
+button:hover {
+    color: #D8D9D0;
+    border: 2px solid #3E3C3A;
+    background-color: #3E3C3A;
 }
 
 ul {
     display: block;
     list-style: none;
     padding-left: 0;
-}
-
-button {
-    color: #D8D9D0;
-    border: 2px solid #3E3C3A;
-    background-color: #3E3C3A;
-}
-
-button:hover {
-    color: #3E3C3A;
-    border: 2px solid #3E3C3A;
-    background: none;
 }
 
 .headline {
@@ -161,12 +156,12 @@ footer {
 }
 
 .toTop {
-    color: #D9A23D;
+    color: #3E3C3A;
+    background: none;
 }
 
 .toTop:hover {
-    color: #3E3C3A;
-    background: none;
+    color: #D9A23D;
 }
 
 @media screen and (min-width: 600px) {
