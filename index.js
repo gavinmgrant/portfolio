@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     function typeWriter(text, i, fnCallback) {
         // check if the copy isn't finished yet
         if (i < (text.length)) {
-            // If so, add the next character to the typewriter class
+            // If so, add the next character to span
             document.querySelector("span").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
   
             // Wait and call this function again for the next character
