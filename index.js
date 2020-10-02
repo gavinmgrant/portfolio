@@ -22,7 +22,13 @@ function clickToTop() {
 // Typewriter effect at headline
 document.addEventListener('DOMContentLoaded',function(event){
     // An array with copy to type in typewriter
-    const dataText = [ "design useful things.", "solve challenging problems.", "continually learn.", "make cool apps.", "work on meaniful projects." ];
+    const dataText = [ 
+        "design useful things.", 
+        "solve problems.", 
+        "continually learn.", 
+        "make cool apps.", 
+        "do meaningful work."
+    ];
     
     // Types one piece of copy in the typewriter and keeps calling itself until the text is finished
     function typeWriter(text, i, fnCallback) {
