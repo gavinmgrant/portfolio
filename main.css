@@ -130,18 +130,24 @@ article {
     margin-bottom: 60px;
 }
 
+.github {
+    padding: 5px;
+}
+
 .githubLogo {
     padding-right: 10px;
     padding-bottom: 5px;
     vertical-align: middle;
-    width: 50px;
+    width: 60px;
+    opacity: .8;
 }
 
 .logo {
     width: 50px;
-    opacity: .85;
+    opacity: .8;
 }
 
+.githubLogo:hover,
 .logo:hover {
     opacity: 1;
     cursor: pointer;
@@ -239,6 +245,10 @@ footer {
 
     .heroImageMobile {
         display: none;
+    }
+
+    .github {
+        display: inline;
     }
 }
 
