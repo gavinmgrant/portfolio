@@ -97,7 +97,7 @@ ul {
 .headline {
     background-color: #feda6a;
     padding: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .typewriterArea {
@@ -110,7 +110,8 @@ ul {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
+    filter: drop-shadow(0 0 0.8rem #000000);
 }
 
 .heroImage {
@@ -123,7 +124,8 @@ ul {
     margin-right: auto;
     opacity: .9;
 	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    filter: drop-shadow(0 0 1rem #000000);
 }
 
 .heroImageMobile:hover {
@@ -228,6 +230,7 @@ footer {
 
     .headline {
         text-align: left;
+        margin-top: 10px;
         padding-left: 50px;
     }
 
@@ -248,7 +251,7 @@ footer {
     .headshotImage {
         position: absolute;
         right: 30px;
-        top: 350px;
+        top: 320px;
     }
 
     article {
@@ -264,6 +267,7 @@ footer {
         opacity: .85;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
+        filter: drop-shadow(0 0 1rem #000000);
     }
     
     .heroImage:hover {
@@ -302,7 +306,7 @@ footer {
     .headshotImage {
         position: absolute;
         right: 30px;
-        top: 120px;
+        top: 130px;
         width: 425px;
         height: 425px;
         margin-top: 0;
