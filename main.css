@@ -47,7 +47,7 @@ h1 {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 42px;
     margin-top: 25px;
 }
 
@@ -74,8 +74,8 @@ button {
     font-size: 24px;
     cursor: pointer;
     margin: 10px;
-    color: #d4d4dc;
-    border: 2px solid #d4d4dc;
+    color: #feda6a;
+    border: 2px solid #feda6a;
     background: none;
     transition-property: all;
     transition-duration: 0.1s;
@@ -84,8 +84,8 @@ button {
 
 button:hover {
     color: #393f4d;
-    border: 2px solid #d4d4dc;
-    background-color: #d4d4dc;
+    border: 2px solid #feda6a;
+    background-color: #feda6a;
 }
 
 ul {
@@ -163,29 +163,17 @@ footer {
 }
 
 .toTop {
-    color: #d4d4dc;
-    border: 2px solid #d4d4dc;
+    color: #feda6a;
+    border: 2px solid #feda6a;
     background: none;
 }
 
 .toTop:hover {
     color: #1d1e22;
-    background-color: #d4d4dc;
+    background-color: #feda6a;
 }
 
 @media screen and (min-width: 600px) {
-    h1 {
-        font-size: 48px;
-    }
-
-    h2 {
-        font-size: 36px;
-    }
-
-    h3 {
-        font-size: 26px;
-    }
-    
     .heroImageMobile {
         width: 420px;
     }
@@ -206,6 +194,19 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+    h1 {
+        font-size: 48px;
+        margin-top: 18px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
     header {
         margin-left: 50px;
         flex-direction: row;
