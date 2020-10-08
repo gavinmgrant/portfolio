@@ -100,6 +100,10 @@ ul {
     margin-bottom: 60px;
 }
 
+.typewriterArea {
+    display: block;
+}
+
 .headshotImage {
     width: 300px;
     height: 300px;
@@ -222,6 +226,15 @@ footer {
         margin-bottom: 0;
     }
 
+    .headline {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .typewriterArea {
+        display: inline;
+    }
+
     #projects {
         margin-top: 50px;
     }
@@ -273,8 +286,6 @@ footer {
     }
 
     .headline {
-        text-align: left;
-        padding-left: 50px;
         margin-right: 540px;
         margin-bottom: 40px;
     }
