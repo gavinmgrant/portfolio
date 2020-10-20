@@ -159,7 +159,7 @@ article {
 footer {
     color: #ffffff;
     background-color: #3f3f3f;
-    padding: 40px 0px 10px 0px;
+    padding: 50px 0px 30px 0px;
 }
 
 .footerLink:hover {
@@ -237,7 +237,7 @@ footer {
     }
 
     .projectsHeading {
-        margin: 150px 0px 0px 0px;
+        margin: 150px 0px 100px 0px;
     }
 
     #projects {
