@@ -29,14 +29,13 @@ nav {
 }
 
 a:link, a:visited {
-    color: #ffffff;
+    color: #ffdf6c;
     text-decoration: none;
-    border-bottom: 2px solid #ffffff;
     padding-bottom: 2px;
 }
 
 a:hover {
-    color: #ffdf6c;
+    color: #ffffff;
     cursor: pointer;
     border-bottom: none;
 }
@@ -138,11 +137,6 @@ article {
     margin-bottom: 60px;
 }
 
-.github {
-    display: block;
-    margin: 10px;
-}
-
 .logo {
     width: 50px;
     opacity: .8;
@@ -177,6 +171,32 @@ footer {
     background-color: #ffdf6c;
 }
 
+.fab,
+.fas {
+    color: #ffdf6c;
+    font-size: 38px;
+    display: inline;
+}
+
+.fab:hover,
+.fas:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.siteIcons {
+    margin-left: 200px;
+}
+
+.siteIcons i {
+    padding: 5px;
+}
+
+.contactIcon {
+    font-size: 56px;
+    padding: 7px;
+}
+
 @media screen and (min-width: 600px) {
     .heroImageMobile {
         width: 420px;
@@ -194,6 +214,10 @@ footer {
 
     .techUsed {
         margin-bottom: 0;
+    }
+
+    .siteIcons {
+        margin-left: 320px;
     }
 }
 
@@ -283,6 +307,11 @@ footer {
     #contact {
         margin-bottom: 100px;
     }
+
+    .siteIcons {
+        margin-top: 10px;
+        margin-left: 500px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -336,15 +365,17 @@ footer {
         margin-left: 50px;
     }
 
+    .siteIcons {
+        position: absolute;
+        right: 30px;
+        top: auto;
+        margin-top: 420px;
+    }
+
     .heroImage {
         position: absolute;
         right: 30px;
         top: auto;
-    }
-
-    .github {
-        display: inline;
-        margin: 0 0 100px 50px;
     }
 }
 
@@ -352,6 +383,13 @@ footer {
     article {
         height: 520px;
         width: 50%;
+    }
+
+    .siteIcons {
+        position: absolute;
+        right: 30px;
+        top: auto;
+        margin-top: 500px;
     }
 
     .heroImage {
