@@ -194,7 +194,15 @@ footer {
 
 .contactIcon {
     font-size: 56px;
-    padding: 7px;
+    padding: 10px;
+}
+
+.fa-check-circle {
+    margin-right: 10px;
+}
+
+.bullets {
+    color: #dedede;
 }
 
 @media screen and (min-width: 600px) {
