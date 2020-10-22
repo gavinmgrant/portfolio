@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif; 
-    font-size: 22px;
+    font-size: 20px;
     color: #ffffff;
     background-color: #202020;
     text-align: center;
@@ -65,12 +65,16 @@ h3 {
 p {
     margin: 0px 50px 10px 50px;
 }
+ 
+.techUsed {
+    margin: 10px 50px 80px 50px;
+}
 
 button {
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 10px;
-    width: 180px;
-    font-size: 22px;
+    padding: 12px;
+    width: 160px;
+    font-size: 20px;
     cursor: pointer;
     margin: 20px 10px 10px 10px;
     color: #ffdf6c;
@@ -88,7 +92,6 @@ button:hover {
 }
 
 ul {
-    display: block;
     list-style: none;
     padding-left: 0;
 }
@@ -104,8 +107,8 @@ ul {
 }
 
 .headshotImage {
-    width: 260px;
-    height: 260px;
+    width: 200px;
+    height: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -134,16 +137,11 @@ article {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 60px;
 }
 
 .logo {
     width: 50px;
     opacity: .8;
-}
-
-.techList {
-    font-size: 20px;
 }
 
 #contact {
@@ -174,7 +172,7 @@ footer {
 .fab,
 .fas {
     color: #ffdf6c;
-    font-size: 38px;
+    font-size: 34px;
     display: inline;
 }
 
@@ -193,8 +191,8 @@ footer {
 }
 
 .contactIcon {
-    font-size: 56px;
-    padding: 10px;
+    font-size: 48px;
+    padding: 5px;
 }
 
 .fa-check-circle {
@@ -206,22 +204,30 @@ footer {
 }
 
 @media screen and (min-width: 600px) {
+    nav {        
+        display: inline-block;
+    }
+
+    .headshotImage {
+        width: 240px;
+        height: 240px;
+    }
+
     .heroImageMobile {
         width: 420px;
     }
 
     article {
         width: 600px;
-        margin-bottom: 60px;
-    }
-
-    #contact li, article li {
-        display: inline-block;
-        padding: 0px 10px 10px 10px;
     }
 
     .techUsed {
-        margin-bottom: 0;
+        margin-bottom: 100px;
+    }
+
+    .techList li {
+        display: inline-block;
+        padding: 8px;
     }
 
     .siteIcons {
@@ -252,9 +258,8 @@ footer {
 
     nav {
         position: absolute;
-        top: 18px;
+        top: 20px;
         right: 20px;
-        display: inline-block;
         margin-bottom: 0;
     }
 
@@ -266,10 +271,6 @@ footer {
 
     .typewriterArea {
         display: inline;
-    }
-
-    .projectsHeading {
-        margin: 150px 0px 100px 0px;
     }
 
     #projects {
@@ -285,7 +286,7 @@ footer {
     .headshotImage {
         position: absolute;
         right: 30px;
-        top: 320px;
+        top: 310px;
     }
 
     article {
@@ -312,6 +313,11 @@ footer {
         display: none;
     }
 
+    .techUsed {
+        margin-top: 40px;
+        margin-bottom: 120px;
+    }
+
     #contact {
         margin-bottom: 100px;
     }
@@ -320,20 +326,29 @@ footer {
         margin-top: 10px;
         margin-left: 500px;
     }
+
+    .fas {
+        font-size: 38px;
+    }
+
+    .contactIcon {
+        font-size: 56px;
+        padding: 10px;
+    }
 }
 
-@media screen and (min-width: 1340px) {
+@media screen and (min-width: 1280px) {
     #projects {
         margin-top: 100px;
     }
 
     .headline {
-        margin-right: 540px;
+        margin-right: 500px;
         margin-bottom: 40px;
     }
 
     .bio {
-        margin-right: 540px;
+        margin-right: 480px;
         margin-bottom: 50px;
     }
 
@@ -345,18 +360,16 @@ footer {
         position: absolute;
         right: 30px;
         top: 130px;
-        width: 385px;
-        height: 385px;
+        width: 345px;
+        height: 345px;
         margin-top: 0;
     }
 
     article {
         margin-left: 60px;
         margin-right: 800px;
-        margin-bottom: 200px;
         text-align: left;
         width: 45%;
-        height: 750px;
     }
 
     article ul {
@@ -367,10 +380,6 @@ footer {
         margin-left: 50px;
         margin-top: 0;
         padding-top: 0;
-    }
-
-    .techUsed {
-        margin-left: 50px;
     }
 
     .siteIcons {
@@ -385,11 +394,16 @@ footer {
         right: 30px;
         top: auto;
     }
+
+    .techUsed {
+        text-align: left;
+        margin-bottom: 140px;
+        margin-left: 110px;
+    }
 }
 
 @media screen and (min-width: 1600px) {
     article {
-        height: 560px;
         width: 50%;
     }
 
