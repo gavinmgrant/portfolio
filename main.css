@@ -386,13 +386,14 @@ footer {
         position: absolute;
         right: 30px;
         top: auto;
-        margin-top: 442px;
+        margin-top: 462px;
     }
 
     .heroImage {
         position: absolute;
         right: 30px;
         top: auto;
+        margin-top: 20px;
     }
 
     .techUsed {
@@ -411,7 +412,7 @@ footer {
         position: absolute;
         right: 30px;
         top: auto;
-        margin-top: 489px;
+        margin-top: 509px;
     }
 
     .heroImage {
