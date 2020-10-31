@@ -259,7 +259,7 @@ footer {
     nav {
         position: absolute;
         top: 20px;
-        right: 20px;
+        right: 50px;
         margin-bottom: 0;
     }
 
@@ -285,7 +285,7 @@ footer {
 
     .headshotImage {
         position: absolute;
-        right: 30px;
+        right: 60px;
         top: 310px;
     }
 
@@ -358,7 +358,7 @@ footer {
 
     .headshotImage {
         position: absolute;
-        right: 30px;
+        right: 60px;
         top: 130px;
         width: 345px;
         height: 345px;
@@ -384,14 +384,14 @@ footer {
 
     .siteIcons {
         position: absolute;
-        right: 30px;
+        right: 60px;
         top: auto;
         margin-top: 462px;
     }
 
     .heroImage {
         position: absolute;
-        right: 30px;
+        right: 60px;
         top: auto;
         margin-top: 20px;
     }
@@ -410,7 +410,6 @@ footer {
 
     .siteIcons {
         position: absolute;
-        right: 30px;
         top: auto;
         margin-top: 509px;
     }
