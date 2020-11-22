@@ -50,13 +50,12 @@ document.addEventListener('DOMContentLoaded',function(event){
     }
     // Start a typewriter animation for copy in the dataText array
     function StartTextAnimation(i) {
-        if (typeof dataText[i] == 'undefined'){
+        if (typeof dataText[i] == 'undefined') {
             setTimeout(function() {
                 StartTextAnimation(0);
             }, 4000);
-        }
         // Check if dataText[i] exists
-        if (i < dataText[i].length) {
+        } else if (i < dataText[i].length) {
             // If text exists, start the typewriter animation
             typeWriter(dataText[i], 0, function(){
             // After callback (and the entire copy has been animated), start next copy
