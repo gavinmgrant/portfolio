@@ -183,7 +183,10 @@ footer {
 }
 
 .siteIcons {
-    margin-left: 200px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
 }
 
 .siteIcons i {
@@ -231,7 +234,7 @@ footer {
     }
 
     .siteIcons {
-        margin-left: 320px;
+        width: 420px;
     }
 }
 
@@ -323,8 +326,8 @@ footer {
     }
 
     .siteIcons {
+        width: 576px;
         margin-top: 10px;
-        margin-left: 500px;
     }
 
     .fas {
@@ -386,7 +389,7 @@ footer {
         position: absolute;
         right: 60px;
         top: auto;
-        margin-top: 462px;
+        margin-top: 453px;
     }
 
     .heroImage {
@@ -411,7 +414,7 @@ footer {
     .siteIcons {
         position: absolute;
         top: auto;
-        margin-top: 509px;
+        margin-top: 500px;
     }
 
     .heroImage {

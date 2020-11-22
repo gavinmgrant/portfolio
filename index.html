@@ -27,50 +27,52 @@
             </h2>
         </section>
 
-        <section class="bio">
-            <p>I'm a software engineer leveraging his architecture background to utilize JavaScript, React, Node.js, Express, and other modern web development frameworks.
+        <p class="bio">
+            I'm a software engineer leveraging his architecture background to utilize JavaScript, React, Node.js, Express, and other modern web development frameworks.
             My goal is to join a talented team of programmers and work together to build great applications. 
-            When I’m not researching ways to improve my code, you can find me urban hiking, attempting to cook, or watching a good movie.</p>
-        </section>
+            When I’m not researching ways to improve my code, you can find me urban hiking, attempting to cook, or watching a good movie.
+        </p>
 
-        <section class="headshot">
+        <div class="headshot">
             <img class="headshotImage" src="images/gavin-grant.jpg" alt="Photo of Gavin Grant.">
-        </section>
+        </div>
 
         <section id="projects">
-            <h1>Projects</h1>
-            <article>
+            <h2>Projects</h2>
+            <div>
                 <span onclick="window.open('https://soundlyinvest.com/')" class="imageBlock">
                     <img class="heroImage" src="images/project_soundlyinvest.gif" alt="Screenshot of rental property calculator app SoundlyInvest by Gavin Grant.">
                     <img class="heroImageMobile" src="images/project_soundlyinvest_mobile.jpg" alt="Screenshot of rental property calculator app SoundlyInvest by Gavin Grant.">
                 </span>
-                <section class="siteIcons">
+                <div class="siteIcons">
                     <a href="https://github.com/gavinmgrant/soundlyinvest-client" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
                     <a href="https://soundlyinvest.com/" target="_blank">
                         <i class="fas fa-link"></i>
                     </a>
-                </section>
-                <h2 class="projectTitle"><a href="https://soundlyinvest.com/" target="_blank">SoundlyInvest</a></h2>
-                <p>
-                    This full-stack web application is a rental property calculator that allows users to save, update, and delete property investment reports.
-                </p>
-                <section class="bullets">
+                </div>
+                <article>
+                    <h2 class="projectTitle"><a href="https://soundlyinvest.com/" target="_blank">SoundlyInvest</a></h2>
                     <p>
-                        <i class="far fa-check-circle"></i>Implemented a responsive client using JavaScript and React.js framework that passes data between components via context and state.
+                        This full-stack web application is a rental property calculator that allows users to save, update, and delete property investment reports.
                     </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Architected RESTful API endpoints using Node.js/Express routers to perform CRUD operations POST, GET, PATCH, AND DELETE.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Engineered a PostgreSQL database to save reports and user data while seamlessly integrating with the Express application.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Integrated Google Maps Places API with the client to autocomplete property address inputs.
-                    </p>
-                </section>
-            </article>
+                    <div class="bullets">
+                        <p>
+                            <i class="far fa-check-circle"></i>Implemented a responsive client using JavaScript and React.js framework that passes data between components via context and state.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Architected RESTful API endpoints using Node.js/Express routers to perform CRUD operations POST, GET, PATCH, AND DELETE.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Engineered a PostgreSQL database to save reports and user data while seamlessly integrating with the Express application.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Integrated Google Maps Places API with the client to autocomplete property address inputs.
+                        </p>
+                    </div>
+                </article>
+            </div>
             <section class="techUsed">
                 <h3>Technologies:</h3>
                 <ul class="techList">
@@ -87,39 +89,41 @@
                 </ul>
             </section>
 
-            <article>
+            <div>
                 <span onclick="window.open('https://permitful.com/')" class="imageBlock">
                     <img class="heroImage" src="images/project_permitful.gif" alt="Screenshot of building permit search app Permitful by Gavin Grant.">
                     <img class="heroImageMobile" src="images/project_permitful_mobile.jpg" alt="Screenshot of building permit search app Permitful by Gavin Grant.">
                 </span>
-                <section class="siteIcons">
+                <div class="siteIcons">
                     <a href="https://github.com/gavinmgrant/permitful-client" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
                     <a href="https://permitful.com/" target="_blank">
                         <i class="fas fa-link"></i>
                     </a>
-                </section>
-                <h2 class="projectTitle"><a href="https://permitful.com/" target="_blank">Permitful</a></h2>
-                <p>
-                    This full-stack web application allows users to visualize where all of the most recently updated 
-                    building permits in a specific jurisdiction are located and save their favorites.
-                </p>
-                <section class="bullets">
+                </div>
+                <article>
+                    <h2 class="projectTitle"><a href="https://permitful.com/" target="_blank">Permitful</a></h2>
                     <p>
-                        <i class="far fa-check-circle"></i>Built a responsive client using JavaScript and React.js framework that integrates with the Google Maps and Socrata Open Data APIs.
+                        This full-stack web application allows users to visualize where all of the most recently updated 
+                        building permits in a specific jurisdiction are located and save their favorites.
                     </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Architected RESTful API endpoints using Node.js/Express routers to allow users to save favorite permits and to implement an authentication system with JWT.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Engineered a PostgreSQL database to save user and favorite permit data while seamlessly integrating with the Express application.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Implemented client- and server-side testing using Enzyme, Supertest, Mocha, and Chai.
-                    </p>
-                </section>
-            </article>
+                    <div class="bullets">
+                        <p>
+                            <i class="far fa-check-circle"></i>Built a responsive client using JavaScript and React.js framework that integrates with the Google Maps and Socrata Open Data APIs.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Architected RESTful API endpoints using Node.js/Express routers to allow users to save favorite permits and to implement an authentication system with JWT.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Engineered a PostgreSQL database to save user and favorite permit data while seamlessly integrating with the Express application.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Implemented client- and server-side testing using Enzyme, Supertest, Mocha, and Chai.
+                        </p>
+                    </div>
+                </article>
+            </div>
             <section class="techUsed">
                 <h3>Technologies:</h3>
                 <ul class="techList">
@@ -136,41 +140,43 @@
                 </ul>
             </section>
             
-            <article>
+            <div>
                 <span onclick="window.open('https://gavinmgrant.github.io/quiz-app/')">
                     <img class="heroImage" src="images/project_name-this-city.gif" alt="Screenshot of quiz web app Name That City by Gavin Grant.">
                     <img class="heroImageMobile" src="images/project_name-this-city_mobile.jpg" alt="Screenshot of quiz web app Name That City by Gavin Grant.">
                 </span>
-                <section class="siteIcons">
+                <div class="siteIcons">
                     <a href="https://github.com/gavinmgrant/quiz-app" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
                     <a href="https://gavinmgrant.github.io/quiz-app/" target="_blank">
                         <i class="fas fa-link"></i>
                     </a>
-                </section>
-                <h2 class="projectTitle"><a href="https://gavinmgrant.github.io/quiz-app/" target="_blank">Name This City</a></h2>
-                <p>
-                    This is an urban geography quiz app that tests your knowledge of cities across the globe.
-                </p>
-                <section class="bullets">
+                </div>
+                <article>
+                    <h2 class="projectTitle"><a href="https://gavinmgrant.github.io/quiz-app/" target="_blank">Name This City</a></h2>
                     <p>
-                        <i class="far fa-check-circle"></i>Developed single-purpose template generation and event handler functions in JavaScript.
+                        This is an urban geography quiz app that tests your knowledge of cities across the globe.
                     </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Provided single-purpose template generation and event handler functions.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Utilized semantic HTML, along with CSS and the jQuery JavaScript library.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Follows a11y best practices and allows full usability via the keyboard.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Implemented a render() function, that conditionally regenerates the view each time the store is updated.
-                    </p>
-                </section>
-            </article>
+                    <div class="bullets">
+                        <p>
+                            <i class="far fa-check-circle"></i>Developed single-purpose template generation and event handler functions in JavaScript.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Provided single-purpose template generation and event handler functions.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Utilized semantic HTML, along with CSS and the jQuery JavaScript library.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Follows a11y best practices and allows full usability via the keyboard.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Implemented a render() function, that conditionally regenerates the view each time the store is updated.
+                        </p>
+                    </div>
+                </article>
+            </div>
             <section class="techUsed">
                 <h3>Technologies:</h3>
                 <ul class="techList">
@@ -181,38 +187,37 @@
                 </ul>
             </section>
 
-            <article>
+            <div>
                 <span onclick="window.open('https://realestsystem.com/')">
                     <img class="heroImage" src="images/project_realest-system.gif" alt="Screenshot of the Realest System website.">
                     <img class="heroImageMobile" src="images/project_realest-system_mobile.png" alt="Screenshot of the Realest System website.">
                 </span>
-                <section class="siteIcons">
-                    <a href="https://github.com/gavinmgrant/" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <div class="siteIcons">
                     <a href="https://realestsystem.com/" target="_blank">
                         <i class="fas fa-link"></i>
                     </a>
-                </section>
-                <h2 class="projectTitle"><a href="https://realestsystem.com/" target="_blank">Realest System</a></h2>
-                <p>
-                    This eCommerce site sells downloadable templates and worksheets for users who buy, sell, or manage real estate.
-                </p>
-                <section class="bullets">
+                </div>
+                <article>
+                    <h2 class="projectTitle"><a href="https://realestsystem.com/" target="_blank">Realest System</a></h2>
                     <p>
-                        <i class="far fa-check-circle"></i>Built with WordPress as the content management system using the Shopkeeper theme by Get Bowtied.
+                        This eCommerce site sells downloadable templates and worksheets for users who buy, sell or manage real estate.
                     </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Implemented a WooCommerce eCommerce site with digital download products.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Produced product pages for digital products that accepts payments via PayPal.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Integrated Google Analytics to track user demographics, behavior, and trends.
-                    </p>
-                </section>
-            </article>
+                    <div class="bullets">
+                        <p>
+                            <i class="far fa-check-circle"></i>Built with WordPress as the content management system using the Shopkeeper theme by "Get Bowtied".
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Implemented a WooCommerce eCommerce site with digital download products.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Produced product pages for digital products that accept payments via PayPal.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Integrated Google Analytics to track user demographics, behavior, and trends.
+                        </p>
+                    </div>
+                </article>    
+            </div>
             <section class="techUsed">
                 <h3>Technologies:</h3>
                 <ul class="techList">
@@ -222,38 +227,37 @@
                 </ul>
             </section>
 
-            <article>
+            <div>
                 <span onclick="window.open('https://gavingrant.co/')">
                     <img class="heroImage" src="images/project_gavingrantco.gif" alt="Screenshot of Gavin Grant Consulting website.">
                     <img class="heroImageMobile" src="images/project_gavingrantco_mobile.jpg" alt="Screenshot of Gavin Grant Consulting website.">
                 </span>
-                <section class="siteIcons">
-                    <a href="https://github.com/gavinmgrant/" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <div class="siteIcons">
                     <a href="https://gavingrant.co/" target="_blank">
                         <i class="fas fa-link"></i>
                     </a>
-                </section>
-                <h2 class="projectTitle"><a href="https://gavingrant.co/" target="_blank">Gavin Grant Consulting</a></h2>
-                <p>
-                    This architectural portfolio site was built for my consulting business to showcase previously completed projects. The content focuses on the design work I've done
-                    over the years either as a freelancer or for past employers. 
-                </p>
-                <section class="bullets">
+                </div>
+                <article>
+                    <h2 class="projectTitle"><a href="https://gavingrant.co/" target="_blank">Gavin Grant Consulting</a></h2>
                     <p>
-                        <i class="far fa-check-circle"></i>Built with WordPress as the content management system using the Ekko theme by KeyDesign Themes.
+                        This architectural portfolio site was built for my consulting business to showcase previously completed projects. The content focuses on the design work I've done
+                        over the years either as a freelancer or for past employers. 
                     </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Implemented the WPBakery Page Builder plugin to build custom pages.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Added custom content to the services, portfolio, about and contact pages.
-                    </p>
-                    <p>
-                        <i class="far fa-check-circle"></i>Adjusted CSS to customize styling.
-                    </p>
-                </section>
+                    <div class="bullets">
+                        <p>
+                            <i class="far fa-check-circle"></i>Built with WordPress as the content management system using the Ekko theme by KeyDesign Themes.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Implemented the WPBakery Page Builder plugin to build custom pages.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Added custom content to the services, portfolio, about, and contact pages.
+                        </p>
+                        <p>
+                            <i class="far fa-check-circle"></i>Adjusted CSS to customize styling.
+                        </p>
+                    </div>
+                </article>
             </article>
             <section class="techUsed">
                 <h3>Technologies:</h3>
@@ -262,40 +266,42 @@
                     <li><a href="https://wordpress.org/" target="_blank">WordPress</a></li>
                 </ul>
             </section>
-        </section>
+        </div>
 
-        <article>
+        <div>
             <span onclick="window.open('https://gavinmgrant.github.io/happy-hour-helper/')">
                 <img class="heroImage" src="images/project_happy-hour-helper.gif" alt="Screenshot of web app Happy Hour Helper by Gavin Grant.">
                 <img class="heroImageMobile" src="images/project_happy-hour-helper_mobile.jpg" alt="Screenshot of web app Happy Hour Helper by Gavin Grant."> 
             </span>
-            <section class="siteIcons">
+            <div class="siteIcons">
                 <a href="https://github.com/gavinmgrant/happy-hour-helper" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
                 <a href="https://gavinmgrant.github.io/happy-hour-helper/" target="_blank">
                     <i class="fas fa-link"></i>
                 </a>
-            </section>
-            <h2 class="projectTitle"><a href="https://gavinmgrant.github.io/happy-hour-helper/" target="_blank">Happy Hour Helper</a></h2>
-            <p>
-                This app recommends food and cocktail recipes for users planning a happy hour.
-            </p>
-            <section class="bullets">
+            </div>
+            <article>
+                <h2 class="projectTitle"><a href="https://gavinmgrant.github.io/happy-hour-helper/" target="_blank">Happy Hour Helper</a></h2>
                 <p>
-                    <i class="far fa-check-circle"></i>Built a responsive front-end application using JavaScript and the jQuery library.
+                    This app recommends food and cocktail recipes for users planning a happy hour.
                 </p>
-                <p>
-                    <i class="far fa-check-circle"></i>Utilized JS code this is separated into single-purpose, reusable, clearly named functions while returning an accessible DOM tree.
-                </p>
-                <p>
-                    <i class="far fa-check-circle"></i>Integrated the app with two external APIs that use search parameters and callbacks to retrieve pertinent data.
-                </p>
-                <p>
-                    <i class="far fa-check-circle"></i>Designed with accessibility in mind by using a11y best practices in semantic HTML.
-                </p>
-            </section>
-        </article>
+                <div class="bullets">
+                    <p>
+                        <i class="far fa-check-circle"></i>Built a responsive front-end application using JavaScript and the jQuery library.
+                    </p>
+                    <p>
+                        <i class="far fa-check-circle"></i>Utilized JS code separated into single-purpose, reusable, clearly named functions while returning an accessible DOM tree.
+                    </p>
+                    <p>
+                        <i class="far fa-check-circle"></i>Integrated the app with two external APIs that use search parameters and callbacks to retrieve pertinent data.
+                    </p>
+                    <p>
+                        <i class="far fa-check-circle"></i>Designed with accessibility in mind by using a11y best practices in semantic HTML.
+                    </p>
+                </div>
+            </article>
+        </div>
         <section class="techUsed">
             <h3>Technologies:</h3>
             <ul class="techList">
@@ -308,7 +314,7 @@
         </section>
         
         <section id="contact">
-            <h1>Contact</h1>
+            <h2>Contact</h2>
                 <a href="mailto:gavingrant@gmail.com">
                     <i class="fas fa-envelope-square contactIcon"></i>
                 </a>
