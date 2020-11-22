@@ -54,7 +54,6 @@ h2 {
     font-family: 'Alata', sans-serif;
     font-size: 28px;
     padding: 10px 0px 10px 0px;
-    color: #202020;
 }
 
 h3 {
@@ -66,6 +65,10 @@ p {
     margin: 0px 50px 10px 50px;
 }
  
+.section-title {
+    font-size: 48px;
+}
+
 .techUsed {
     margin: 10px 50px 80px 50px;
 }
@@ -100,6 +103,10 @@ ul {
     background-color: #ffdf6c;
     padding: 20px;
     margin-bottom: 40px;
+}
+
+.headline-text {
+    color: #202020;
 }
 
 .typewriterArea {
