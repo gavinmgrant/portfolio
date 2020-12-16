@@ -86,6 +86,7 @@ button {
     transition-property: all;
     transition-duration: 0.1s;
     transition-timing-function: linear;
+    border-radius: 30px;
 }
 
 button:hover {
@@ -120,11 +121,12 @@ ul {
     margin-right: auto;
     margin-bottom: 30px;
     margin-top: 50px;
-    box-shadow: 8px 8px #000000;
+    border-radius: 200px;
 }
 
 .heroImage {
     display: none;
+    border-radius: 30px;
 }
 
 .heroImageMobile {
@@ -134,7 +136,7 @@ ul {
     opacity: .95;
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    box-shadow: 8px 8px #000000;
+    border-radius: 30px;
 }
 
 .heroImageMobile:hover {
@@ -213,6 +215,39 @@ footer {
 
 .bullets {
     color: #dedede;
+    line-height: 1.3em;
+}
+
+#testimonials {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.testimonial {
+    width: 100%;
+    padding: 30px;
+    margin: 0 20px 20px 20px;
+    color: #202020;
+    background-color: #ffdf6c;
+    border-radius: 30px;
+}
+
+.testimonial-name {
+    font-size: 22px;
+    font-family: 'Alata', sans-serif;
+    color: #000000;
+    margin: 0;
+}
+
+.testimonial-title {
+    font-size: 16px;
+}
+
+.testimonial-copy {
+    line-height: 1.5em;
 }
 
 @media screen and (min-width: 600px) {
@@ -314,7 +349,6 @@ footer {
         opacity: .8;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
-        box-shadow: 8px 8px #000000;
     }
     
     .heroImage:hover {
@@ -348,6 +382,14 @@ footer {
         font-size: 56px;
         padding: 10px;
     }
+
+    #testimonials {
+        width: 60%;
+    }
+
+    .testimonial {
+        padding: 40px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -358,6 +400,7 @@ footer {
     .headline {
         margin-right: 445px;
         margin-bottom: 40px;
+        border-radius: 0 30px 30px 0;
     }
 
     .bio {
@@ -376,6 +419,7 @@ footer {
         width: 345px;
         height: 345px;
         margin-top: 0;
+        border-radius: 30px;
     }
 
     article {
@@ -413,6 +457,22 @@ footer {
         text-align: left;
         margin-bottom: 140px;
         margin-left: 110px;
+    }
+
+    #testimonials {
+        margin-bottom: 150px;
+        width: 800px;
+    }
+    
+    .testimonial {
+        width: 100%;
+        padding: 50px;
+        margin: 20px;
+        text-align: left;
+    }
+
+    .testimonial-name {
+        margin: 0 0 0 50px;
     }
 }
 
