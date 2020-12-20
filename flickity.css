@@ -77,8 +77,8 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button {
     top: 45%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     /* vertically center */
     transform: translateY(-50%);

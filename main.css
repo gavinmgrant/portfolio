@@ -62,7 +62,7 @@ h3 {
 }
 
 p {
-    margin: 0px 50px 10px 50px;
+    margin: 0px 30px 10px 30px;
 }
  
 .section-title {
@@ -70,7 +70,7 @@ p {
 }
 
 .techUsed {
-    margin: 10px 50px 80px 50px;
+    margin: 10px 50px 100px 50px;
 }
 
 button {
@@ -136,7 +136,7 @@ ul {
     opacity: .95;
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .heroImageMobile:hover {
@@ -147,7 +147,6 @@ ul {
 article {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
 }
 
 .logo {
@@ -232,7 +231,7 @@ footer {
     margin: 0 20px 20px 20px;
     color: #202020;
     background-color: #ffdf6c;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .testimonial-name {
@@ -247,6 +246,7 @@ footer {
 }
 
 .testimonial-copy {
+    margin: 0px 40px 10px 40px;
     line-height: 1.5em;
     font-size: 18px;
 }
@@ -267,10 +267,6 @@ footer {
 
     article {
         width: 600px;
-    }
-
-    .techUsed {
-        margin-bottom: 100px;
     }
 
     .techList li {
@@ -390,6 +386,7 @@ footer {
 
     .testimonial {
         padding: 40px;
+        border-radius: 30px;
     }
 }
 
