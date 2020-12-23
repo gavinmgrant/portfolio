@@ -14,31 +14,28 @@
 </head>
 <body>
     <header>
-        <h1>Gavin Grant</h1>
+        <h2 class="logo">Gavin Grant</h2>
+        <nav>
+            <button class="buttonHeader">Projects</button>
+            <button class="buttonHeader">Contact</button>
+        </nav>
     </header>
 
-    <nav>
-        <button class="buttonProjects">Projects</button>
-        <button class="buttonContact">Contact</button>
-    </nav>
-
-    <main>
-        <section class="headline">
-            <h2 class="headline-text">
-                Hi, I’m Gavin. I like to <span class="typewriterArea"><span class="typewriter"></span></span>
-            </h2>
-        </section>
+    <section class="headline">
+        <h2 class="headline-text">
+            Hi, I’m Gavin. I like to <span class="typewriter"></span>
+        </h2>
 
         <p class="bio">
-            I'm a software engineer leveraging his architecture background to utilize JavaScript, React, Node.js, Express, and other modern web development frameworks.
-            My goal is to join a talented team of programmers and work together to build great applications. 
-            When I’m not researching ways to improve my code, you can find me urban hiking, attempting to cook, or watching a good movie.
+            <span class="bioMobile">I'm a software engineer leveraging his architecture background to utilize JavaScript, React, Node.js, Express, and other modern web development frameworks.</span>
+            <span class="bioFull">My goal is to join a talented team of programmers and work together to build great applications. 
+            When I’m not researching ways to improve my code, you can find me urban hiking, attempting to cook, or watching a good movie.</span>
         </p>
+    </section>
 
-        <div class="headshot">
-            <img class="headshotImage" src="images/gavin-grant.jpg" alt="Photo of Gavin Grant.">
-        </div>
+    <div class="slider"></div>
 
+    <main>
         <section id="projects">
             <h2 class="section-title">Projects</h2>
             <div>
@@ -371,6 +368,7 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>

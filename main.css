@@ -1,31 +1,42 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto Condensed', sans-serif; 
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     background-color: #202020;
     text-align: center;
     line-height: 1.75;
     margin: 0px;
+    width: 100%;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 120px;
+html {
+    width: 100%;
 }
 
 nav {
+    margin: 0 0 20px 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
+    justify-content: space-between;
+    max-height: 120px;
+    width: 100%;
+    margin: 0;
+    background-color: #ffdf6c;
+    z-index: 2;
+    overflow: hidden;
 }
 
 a:link, a:visited {
@@ -42,7 +53,7 @@ a:hover {
 
 h1 {
     font-family: 'Alata', sans-serif;
-    color: #ffffff;
+    color: #202020;
 }
 
 h1 {
@@ -64,9 +75,14 @@ h3 {
 p {
     margin: 0px 30px 10px 30px;
 }
- 
+
+.bioFull {
+    display: none;
+}
+
 .section-title {
     font-size: 48px;
+    margin: 30px 0 30px 0;
 }
 
 .techUsed {
@@ -75,13 +91,12 @@ p {
 
 button {
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 16px;
-    width: 160px;
-    font-size: 20px;
+    padding: 10px;
+    font-size: 18px;
     cursor: pointer;
-    margin: 12px 10px 10px 10px;
-    color: #ffdf6c;
-    border: 2px solid #ffdf6c;
+    margin: 5px;
+    color: #202020;
+    border: 2px solid #202020;
     background: none;
     transition-property: all;
     transition-duration: 0.1s;
@@ -90,9 +105,8 @@ button {
 }
 
 button:hover {
-    color: #393f4d;
-    border: 2px solid #ffdf6c;
-    background-color: #ffdf6c;
+    color: #ffdf6c;
+    background-color: #202020;
 }
 
 ul {
@@ -102,26 +116,42 @@ ul {
 
 .headline {
     background-color: #ffdf6c;
-    padding: 20px;
-    margin-bottom: 40px;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.slider {
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    transform: translateY(100%);
 }
 
 .headline-text {
     color: #202020;
+    font-size: 32px;
+    line-height: 1.2em;
+    margin: 0 30px 10px 30px;
+    overflow: hidden;
 }
 
-.typewriterArea {
-    display: block;
-}
-
-.headshotImage {
-    width: 200px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    border-radius: 200px;
+.bio {
+    color: #202020;
+    margin: 0 30px 0 30px;
+    overflow: hidden;
 }
 
 .heroImage {
@@ -150,8 +180,15 @@ article {
 }
 
 .logo {
-    width: 50px;
-    opacity: .8;
+    color: #202020;
+    margin: 5px 0 5px 0;
+    padding: 0;
+    font-size: 28px !important;
+    transform: translateY(210%);
+}
+
+.buttonHeader {
+    transform: translateY(210%);
 }
 
 #contact {
@@ -250,15 +287,57 @@ footer {
     line-height: 1.5em;
     font-size: 18px;
 }
-
-@media screen and (min-width: 600px) {
-    nav {        
-        display: inline-block;
+@media screen and (min-width: 520px) {
+    .logo {
+        margin: 0 0 5px 60px;
+        transform: translateY(140%);
     }
 
-    .headshotImage {
-        width: 240px;
-        height: 240px;
+    .buttonHeader {
+        transform: translateY(140%);
+    }
+
+    nav {        
+        display: inline-block;
+        margin: 0 55px 0 0;
+    }
+
+    header {
+        height: 60px;
+        flex-direction: row;
+    }
+
+    .headline-text {
+        margin: 0 30px 10px 60px;
+    }
+
+    .bio {
+        margin: 0 30px 0 60px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .logo {
+        font-size: 32px !important;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 12px;
+        width: 120px;
+        font-size: 18px;
+        margin: 5px;
+    }
+
+    .headline-text {
+        font-size: 40px;
     }
 
     .heroImageMobile {
@@ -271,7 +350,7 @@ footer {
 
     .techList li {
         display: inline-block;
-        padding: 8px;
+        padding: 8px 8px 8px 0;
     }
 
     .siteIcons {
@@ -293,28 +372,24 @@ footer {
         font-size: 26px;
     }
 
-    header {
-        margin-left: 50px;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: flex-start;
+    .headline-text {
+        font-size: 42px;
+        margin: 0 60px 20px 60px;
     }
 
-    nav {
-        position: absolute;
-        top: 20px;
-        right: 50px;
-        margin-bottom: 0;
-    }
-
-    .headline {
-        text-align: left;
-        margin-top: 10px;
-        padding-left: 50px;
-    }
-
-    .typewriterArea {
+    .bioFull {
         display: inline;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 16px;
+        width: 140px;
+        margin: 5px 5px 5px 20px;
+    }
+
+    header {
+        height: 100px;
     }
 
     #projects {
@@ -323,14 +398,6 @@ footer {
 
     .bio {
         text-align: left;
-        margin-right: 400px;
-        margin-bottom: 0px;
-    }
-
-    .headshotImage {
-        position: absolute;
-        right: 60px;
-        top: 310px;
     }
 
     article {
@@ -392,32 +459,21 @@ footer {
 
 @media screen and (min-width: 1280px) {
     #projects {
-        margin-top: 100px;
+        margin-top: 70px;
     }
 
-    .headline {
-        margin-right: 445px;
-        margin-bottom: 40px;
-        border-radius: 0 30px 30px 0;
+    .headline-text {
+        font-size: 52px;
+        margin: 0 60px 20px 60px;
     }
 
     .bio {
-        margin-right: 480px;
-        margin-bottom: 50px;
+        margin: 0 60px 0 60px;
+        width: 1150px;
     }
 
     p {
         margin: 0px 30px 20px 50px;
-    }
-
-    .headshotImage {
-        position: absolute;
-        right: 60px;
-        top: 130px;
-        width: 345px;
-        height: 345px;
-        margin-top: 0;
-        border-radius: 30px;
     }
 
     article {
@@ -480,6 +536,15 @@ footer {
 }
 
 @media screen and (min-width: 1480px) {
+    .headline-text {
+        font-size: 60px;
+        margin: 0 0 20px 10%;
+    }
+
+    .bio {
+        margin: 0 60px 0 10%;
+    }
+
     .siteIcons {
         position: absolute;
         top: auto;

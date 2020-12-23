@@ -1,3 +1,12 @@
+// Landing section animation
+const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+
+tl.fromTo(".headline-text", { opacity: 0 }, { opacity: 1, duration: 2.9 });
+tl.to(".slider", { y: "-100%", duration: 1.5, delay: .25 });
+gsap.to(".logo", { y: "0%", duration: 1, delay: 4.25 });
+gsap.to(".buttonHeader", { y: "0%", duration: 1, delay: 4.25 });
+tl.fromTo(".bio", { opacity: 0 }, { opacity: 1, duration: 1 });
+
 // Scroll to projects section on click.
 function clickToProjects() {
     $('nav').on('click', '.buttonProjects', function (event) {
