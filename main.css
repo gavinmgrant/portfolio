@@ -142,7 +142,7 @@ ul {
 
 .headline-text {
     color: #202020;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1.2em;
     margin: 0 30px 10px 30px;
     overflow: hidden;
@@ -325,10 +325,6 @@ footer {
         height: 80px;
     }
 
-    body {
-        font-size: 20px;
-    }
-
     button {
         padding: 12px;
         width: 120px;
@@ -337,7 +333,7 @@ footer {
     }
 
     .headline-text {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .heroImageMobile {
@@ -359,6 +355,10 @@ footer {
 }
 
 @media screen and (min-width: 900px) {
+    body {
+        font-size: 20px;
+    }
+
     h1 {
         font-size: 48px;
         margin-top: 18px;
@@ -373,7 +373,7 @@ footer {
     }
 
     .headline-text {
-        font-size: 42px;
+        font-size: 40px;
         margin: 0 60px 20px 60px;
     }
 
