@@ -156,7 +156,6 @@ ul {
 
 .heroImage {
     display: none;
-    border-radius: 30px;
 }
 
 .heroImageMobile {
@@ -287,6 +286,12 @@ footer {
     line-height: 1.5em;
     font-size: 18px;
 }
+
+.testimonial-source {
+    position: relative;
+    top: 40px;
+}
+
 @media screen and (min-width: 520px) {
     .logo {
         margin: 0 0 5px 60px;
@@ -410,7 +415,7 @@ footer {
         height: 422px;
         margin-left: auto;
         margin-right: auto;
-        opacity: .8;
+        opacity: .9;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }

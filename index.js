@@ -1,23 +1,41 @@
 // Landing section animation
-const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
+const tl = gsap.timeline({ 
+    defaults: { ease: "power1.out" } 
+});
 
 tl.fromTo(".headline-text", { opacity: 0 }, { opacity: 1, duration: 2.9 });
-tl.to(".slider", { y: "-100%", duration: 1.5, delay: .25 });
-gsap.to(".logo", { y: "0%", duration: 1, delay: 4.25 });
-gsap.to(".buttonHeader", { y: "0%", duration: 1, delay: 4.25 });
+tl.to(".slider", { y: "-100%", duration: 1, delay: 1 });
+gsap.fromTo(".logo", { opacity: 0 }, { y: "0%", opacity: 1, duration: 1, delay: 4.25 });
+gsap.fromTo(".buttonHeader", { opacity: 0 }, { y: "0%", opacity: 1, duration: 1, delay: 4.25 });
 tl.fromTo(".bio", { opacity: 0 }, { opacity: 1, duration: 1 });
+
+// ScrollTrigger animation for projects
+gsap.utils.toArray(".project").forEach(project => {
+    let title = project.querySelector(".projectTitle");
+    let tlp = new TimelineMax({
+        scrollTrigger: {
+            markers: false, // change to 'true' to turn markers on during development
+            trigger: project,
+            start: "top center",
+            end: "bottom bottom",
+            scrub: 1
+        }
+    });
+
+    tlp.fromTo(title, { y: 50, opacity: 0}, { y: 0, opacity: 1, duration: 1});
+});
 
 // Scroll to projects section on click.
 function clickToProjects() {
     $('nav').on('click', '.buttonProjects', function (event) {
-        window.location.href='index.html#projects';
+        window.location.href='#projects';
     });
 }
 
 // Scroll to contact section on click.
 function clickToContact() {
     $('nav').on('click', '.buttonContact', function (event) {
-        window.location.href='index.html#contact';
+        window.location.href='#contact';
     });
 }
 
