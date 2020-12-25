@@ -186,6 +186,10 @@ article {
     transform: translateY(210%);
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 .buttonHeader {
     transform: translateY(210%);
 }

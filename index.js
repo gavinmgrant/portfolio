@@ -44,6 +44,9 @@ function clickToTop() {
     $('footer').on('click', '.toTop', function (event) {
         window.scrollTo(0, 0);
     });
+    $('header').on('click', '.logo', function (event) {
+        window.scrollTo(0, 0);
+    });
 }
 
 // Typewriter effect at headline
