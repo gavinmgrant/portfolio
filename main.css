@@ -14,6 +14,7 @@ body {
     margin: 0px;
     width: 100%;
     text-rendering: optimizeLegibility !important;
+    font-kerning: normal;
 }
 
 html {
