@@ -152,12 +152,14 @@ ul {
     line-height: 1.2em;
     margin: 0 30px 10px 30px;
     overflow: hidden;
+    opacity: 0;
 }
 
 .bio {
     color: #202020;
     margin: 0 30px 0 30px;
     overflow: hidden;
+    opacity: 0;
 }
 
 .heroImage {
