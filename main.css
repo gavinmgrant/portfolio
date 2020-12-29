@@ -53,6 +53,10 @@ a:hover {
     border-bottom: none;
 }
 
+h1, h2, h3, h4, h5, strong, b { 
+    font-weight: 400; 
+} 
+
 h1 {
     font-family: 'Alata', sans-serif;
     color: #202020;
