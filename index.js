@@ -7,6 +7,7 @@ tl.fromTo(".headline-text", { opacity: 0 }, { opacity: 1, duration: 2.9 });
 tl.to(".slider", { y: "-100%", duration: 1, delay: 1 });
 gsap.fromTo(".logo", { opacity: 0 }, { y: "0%", opacity: 1, duration: 1, delay: 4.25 });
 gsap.fromTo(".buttonHeader", { opacity: 0 }, { y: "0%", opacity: 1, duration: 1, delay: 4.25 });
+gsap.fromTo(".down-arrow", { opacity: 0 }, { opacity: 1, duration: 1, delay: 5 });
 tl.fromTo(".bio", { opacity: 0 }, { opacity: 1, duration: 1 });
 
 // ScrollTrigger animation for projects
@@ -28,6 +29,10 @@ gsap.utils.toArray(".project").forEach(project => {
 // Scroll to projects section on click.
 function clickToProjects() {
     $('nav').on('click', '.buttonProjects', function (event) {
+        window.location.href='#projects';
+    });
+
+    $('.down-arrow').on('click', '.fa-chevron-circle-down', function (event) {
         window.location.href='#projects';
     });
 }

@@ -19,6 +19,7 @@ body {
 
 html {
     width: 100%;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -256,6 +257,24 @@ footer {
     padding: 5px;
 }
 
+.down-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.fa-chevron-circle-down {
+    font-size: 36px !important;
+    color: #202020;
+    position: absolute;
+    bottom: 20px;
+}
+
+.fa-chevron-circle-down:hover {
+    color: #202020;
+}
+
 .fa-check-circle {
     margin-right: 10px;
 }
@@ -396,6 +415,10 @@ footer {
 
     .bioFull {
         display: inline;
+    }
+
+    .fa-chevron-circle-down {
+        font-size: 48px !important;
     }
 
     button {
